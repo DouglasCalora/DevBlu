@@ -1,0 +1,115 @@
+@media screen and(max-width:979px) {
+    .tabela-servicos {
+        width: 500px;
+        height: 400px;
+        padding: 10px;
+        display: table;
+        font-size: 100x;
+    }
+    .tecnologia-tab {
+        width: 300px;
+        height: 450px;
+        background: rgb(183, 200, 204);
+        margin: 0px 2px 0px 2px;
+        box-shadow: 1px 1px 1px 0px rgb(71, 70, 70);
+        display: block;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding-top: 80px;
+        background: black;
+    }
+    .pesquisa {
+        width: 150px;
+    }
+    /* ---------capa------------ */
+    .carousel-conteudo {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .carousel-conteudo h1 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .carousel-conteudo p {
+        margin: 0px;
+    }
+    .carousel-conteudo h4 {
+        font-size: 15px;
+        /* margin: 20px;Kkk */
+    }
+    .carousel-conteudo h3 {
+        margin: 0px;
+        font-size: 15px;
+    }
+    /* ---------fim capa ----------------------- */
+    /* ---------------servicos-------------- */
+    .tabela-servicos {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.466);
+        margin: 0px 0px 5px 15px;
+        display: block;
+        font-size: 15px;
+    }
+    .tabela-servicos h2 {
+        text-align: center;
+        font-weight: 500;
+    }
+    /* ---------------fim servicos--------------------------- */
+    /* ----------------------tecnologia--------------- */
+    .tecnologia-tab {
+        height: 500px;
+        background: rgb(183, 200, 204);
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 2px 0px rgb(71, 70, 70);
+        padding: 10px;
+    }
+    #tecnologia h3 {
+        text-align: center;
+        color: #131426;
+        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    /* -------------------fim tecnologia--------------- */
+    /* ---------------rodape---------------- */
+    .rodape-geral {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .rodape-telefone {
+        height: 250;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .rodape-email {
+        height: 250;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .rodape-cidade {
+        height: 250;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .rodape-social {
+        height: 250;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    /* --------------------fim rodape-------------------------- */
+    .imagem {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .carousel-caption {
+        top: 46%;
+    }
+}

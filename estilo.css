@@ -1,0 +1,294 @@
+html,
+body,
+.capa {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ---------------------Menu----------------------- */
+
+nav {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.menu-opcoes {
+    background: black;
+}
+
+.carousel-indicators li {
+    background: black;
+}
+
+.dropdown-menu {
+    position: relative;
+    background: transparent;
+    float: inherit;
+    display: none;
+}
+
+.dropdown-item {
+    background: transparent;
+    color: black;
+}
+
+.dropdown-menu>li>a {
+    color: white;
+}
+
+.img-logo {
+    height: 150px;
+    width: 135px;
+    display: block;
+    background: url('img/logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+    padding-bottom: 0px;
+}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 18px 0px;
+}
+
+
+/* --------------Capa------------------ */
+
+.capa {
+    width: 90%;
+    display: table;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto-capa h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(49, 113, 209);
+    text-shadow: 2px 2px black;
+    letter-spacing: -0.05em;
+    margin-top: 100px;
+}
+
+.carousel-conteudo {
+    font-size: 18px;
+}
+
+
+}
+.carousel-conteudo h1 {
+    margin-top: 0px;
+    padding: 0px;
+}
+.carousel-conteudo h4 {
+    margin: 0px;
+}
+.item h3 {
+    font-weight: 500;
+}
+.item h4 {
+    font-weight: 500;
+}
+
+/* ----------------Fim capa-------------------- */
+
+/* Servicos */
+.servicos-capa {
+    width: 100%;
+    background: url('img/servico-capa.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#servicos {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    font-size: 18px;
+}
+.servicos-web {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    letter-spacing: -0.05em;
+}
+.tabela-servicos {
+    width: 550px;
+    height: 450px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.466);
+    margin: 5px 0px 10px 20px;
+    display: inline;
+    border-radius: 2px;
+    -moz-boder-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.tabela-servicos h2 {
+    text-align: center;
+    font-weight: 900;
+}
+.icon-servicos {
+    display: inline-block;
+    text-align: center;
+}
+.icon-servicos i {
+    text-align: center;
+    font-size: 50px;
+}
+.icon-servicos-facebook i:hover {
+    color: #df2d09f5;
+}
+.icon-servicos-chat i:hover {
+    color: #4ff6ec;
+}
+
+/* ----------------------------------------------- */
+
+/* Tecnologias */
+#tecnologia {
+    margin-bottom: 20px;
+    background: white;
+}
+#tecnologia h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #131426;
+}
+#tecnologia h3 {
+    text-align: center;
+    color: #131426;
+    margin-bottom: 75px;
+}
+.tecnologia-tab {
+    height: 400px;
+    margin-bottom: 5px;
+    background: rgb(183, 200, 204);
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px 0px rgb(71, 70, 70);
+}
+.tecnologia-tab p {
+    font-size: 16px;
+}
+
+/* ----------------------------------------- */
+
+/* rodape */
+footer {
+    background: black;
+}
+footer div {
+    margin-bottom: 20px;
+}
+.rodape {
+    background: black;
+    padding: 1px;
+    text-align: center;
+}
+.rodape-contato {
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.rodape-telefone {
+    height: 300px;
+    background: #131426;
+    color: white;
+    margin-bottom: 5px;
+}
+.rodape-telefone:hover {
+    background: white;
+    color: #131426;
+}
+.rodape-email {
+    height: 300px;
+    background: white;
+    color: #131426;
+    margin-bottom: 5px;
+}
+.rodape-email:hover {
+    background: #131426;
+    color: white;
+}
+.rodape-cidade {
+    height: 300px;
+    background: #131426;
+    color: white;
+    margin-bottom: 5px;
+}
+.rodape-cidade:hover {
+    background: white;
+    color: #131426;
+}
+.rodape-social {
+    height: 300px;
+    background: white;
+    color: #131426;
+}
+.rodape-social:hover {
+    background: #131426;
+    color: white;
+}
+.rodape-geral {
+    margin: 0px;
+}
+.rodape-geral div h3 {
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.rodape-social a {
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.rodape-social a:hover {
+    color: white;
+}
+
+/* ----------------------------------- */
